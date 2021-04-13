@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login&Signup</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="display">
+                <button id="btn1" >LOGIN</button>
+                <button id="btn2" onclick="myFunction()">SIGNUP</button>
+            </div>
+            <div class="form-group">
+              <div class="form login" id="Login">
+                <form action="">
+                    <input type="text" placeholder="johndoe@email.com">
+                    <input type="password" name="" id="" placeholder="Enter Password">
+                    <button onclick="logged()">LOGIN</button>
+                </form>
+                <small>or</small>
+                <button>LOGIN WITH GOOGLE</button>
+            </div>
+            <div class="form signup" id="Signup">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="FirstName Surname">
+                    <input type="email" name="" id="" placeholder="johndoe@email.com">
+                    <input type="text" name="" id="display" placeholder="Display Name">
+                    <input type="password" name="" id="" placeholder="Create Password">
+                    <input type="password" name="" id="" placeholder="Confirm Password">
+                    <button onclick="logged()">CREATE ACCOUNT</button>
+                </form>
+                <small>or</small>
+                <button>SIGNUP WITH GOOGLE</button>
+            </div>  
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
